@@ -26,3 +26,4 @@ BeanFactory를 상속받은 ApplicationContext에 모든 Bean이 들어있다.
 IOC 컨테이너 안의 객체를 Bean이라고 한다.
 
 Bean을 등록하는 방법은 @Component, @Bean 어노테이션으로 등록할 수 있다.
+
