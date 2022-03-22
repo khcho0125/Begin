@@ -6,7 +6,7 @@
 
 ## spring boot Validation
 
-#### @Valid vs @Validated 
+### @Valid vs @Validated 
 
 @Valid는 자바에서 지원해주는 어노테이션이고 @Validatied는 Spring에서 지원해주는 어노테이션이다.
 
@@ -100,7 +100,3 @@ public class Signup {
 @AssertTrue : True인지 검사한다.
 
 @AssertFalse : False인지 검사한다.
-
-### ExceptionHandler
-
-별개로 알아보도록 하겠습니다.
