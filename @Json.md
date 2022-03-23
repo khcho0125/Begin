@@ -21,9 +21,7 @@ public class RequestDTO {
     
 }
 ```
-
 Request로 보내는 Json이 다음과 같다면 전화번호는 null이 될 것이다.
-
 ```javaScript
 {
   "account" : "user01",
