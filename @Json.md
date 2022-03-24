@@ -53,7 +53,7 @@ public class RequestDTO {
 
 ex @JsonNaming)
 ```java
-@JsonNaming(value = PrepretyNamingStrategy.SnakeCaseStrategy.class)
+@JsonNaming(value = PropretyNamingStrategy.SnakeCaseStrategy.class)
 public class RequestDTO {
 
     private String email;
