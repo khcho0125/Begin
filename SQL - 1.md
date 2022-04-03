@@ -55,3 +55,5 @@
    id가 5인 멤버 삭제
 
    DELECT FROM MEMBER WHERE id = 5
+   
+   
