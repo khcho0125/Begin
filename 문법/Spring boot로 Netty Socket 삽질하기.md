@@ -6,7 +6,7 @@
 
 - ### [SocketIo Configuration](#socket-configuration)
 
-- ### [Client](SocketIoClient)
+- ### [Client](#socketioclient)
 
 ------
 
