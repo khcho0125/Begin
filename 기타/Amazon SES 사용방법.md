@@ -82,7 +82,7 @@
   * ##### AWS Config
 
   ```java
-  	@Bean
+      @Bean
       public AmazonSimpleEmailService amazonSimpleEmailService() {
           BasicAWSCredentials basicAWSCredentials = new BasicAWSCredentials(accessKey, secretKey);
           AWSStaticCredentialsProvider awsStaticCredentialsProvider = new AWSStaticCredentialsProvider(basicAWSCredentials);
@@ -97,7 +97,7 @@
   * ##### AWS SES CreateTemplate
 
   ```java
-  public void Template(String HtmlTemplate) {
+      public void Template(String HtmlTemplate) {
           Template template = new Template();
           template.setTemplateName("Test");
           template.setSubjectPart("AWS SES에 오신 것을 환영합니다.");
